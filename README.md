@@ -6,5 +6,5 @@ In order to use this program, you must have access to a Secret and Client ID fro
 
 Now, you can run the program by running final.py simply. In the terminal, you will be asked to input the tracks' names one by one in lowercase. Then you will be asked to type the artist. Finally, you will get 4 graphs to show some characteristics of the tracks.
 
-#Required Python Packages
+# Required Python Packages
 requests, plotly
