@@ -8,3 +8,13 @@ Now, you can run the program by running final.py simply. In the terminal, you wi
 
 # Required Python Packages
 requests, plotly
+
+# Data structure
+The data structure used in the project is tree. The tree is saved in the cache.json.
+Root: music
+1st nodes: track name. This node is built when the user inputs the name.
+2nd node is the track with the same name but from different artist. 
+3rd node is ?audio-features?.
+Leaves of 2nd node are basic attributes of the track: artist, album, release data, genre, id and popularity.
+Leaves of 3rd node are energy, key, tempo...etc.
+After the data of 2nd node, 3rd node and leaves are obtained from api, it will be organized in to the tree. This is implemented in the search_track function.
